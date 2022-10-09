@@ -1,0 +1,122 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsla(0, 100%, 74%) ;
+    font-family: 'Poppins', Tahoma, Verdana;
+    font-size: 16px;
+}
+
+.container {
+    background-image: url('../images/bg-intro-desktop.png');
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 8% ;
+}
+
+.text, #input-form {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.text {
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.try-it {
+    text-align: center;
+    color: #fff;
+    background: hsl(248, 32%, 49%);
+    padding: 10px;
+    border-radius: 1vmin;
+}
+
+form {
+    background: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 1vmin;
+}
+
+input {
+    width: 80%;
+    height: 35px;
+    border-radius: 1vmin;
+    padding: 0 20px;
+}
+
+#submitBtn {
+    color: #fff;
+    background: hsl(154, 59%, 51%);
+    text-transform: uppercase;
+    height: 35px;
+    border-radius: 1vmin;
+    border: none;
+    width: 90%;
+}
+
+.clicking {
+    color: hsl(246, 25%, 77%);
+    font-size: 0.556em;
+}
+
+span {
+    color:  hsla(0, 100%, 74%) ;
+}
+
+.error-icon {
+    background-image: url('../images/icon-error.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    border: hsla(0, 100%, 74%) solid 0.5vmin ;
+}
+
+#fn-error-text, #ln-error-text, #email-error-text, #pass-error-text {
+    color:  hsla(0, 100%, 74%) ;
+    font-size: 0.7em;
+    text-align: left;
+    padding: 0 0 0 5vmin;
+}
+
+/* tablet and ipad */
+@media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        background-image: url('../images/bg-intro-mobile.png');
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .text, #input-form {
+        width: 70%;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 12px;
+    }
+
+    .text, #input-form {
+        width: 90%;
+    }
+}

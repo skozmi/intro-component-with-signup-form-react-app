@@ -1,0 +1,83 @@
+.input-form {
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.try-it {
+    background: #6055a5;
+    background: hsl(248, 32%, 49%);
+    border-radius: 1vmin;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background: #fff;
+    border-radius: 1vmin;
+    padding: 25px;
+    text-align: center;
+}
+
+input {
+    height: 35px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+#submitBtn {
+    background:#38cc8c;
+    background:hsl(154, 59%, 51%);
+    border-radius: 1vmin;
+    border: none;
+    color: #fff;
+    height: 35px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.clicking {
+    color:#b9b6d3;
+    color:hsl(246, 25%, 77%);
+    font-size: 0.556em;
+}
+
+span {
+    color:#ff7a7a;
+    color:hsl(0, 100%, 74%) ;
+}
+
+.error-icon {
+    background-image: url('../../../public/images/icon-error.svg');
+    background-origin: content-box;
+    background-position: right; 
+    background-repeat: no-repeat;
+    border: #ff7a7a solid 1px;
+    border: hsl(0, 100%, 74%) solid 1px;
+}
+
+.fn-error-text, .ln-error-text, .email-error-text, .pass-error-text {
+    color:#ff7a7a;
+    color:  hsl(0, 100%, 74%);
+    font-size: 0.7em;
+    padding: 0 0 0 5vmin;
+    text-align: left;
+}
+
+/* tablet and ipad */
+@media screen and (max-width: 768px) {
+
+    .input-form {
+        width: 80%;
+    }
+
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+
+    .input-form {
+        width: 90%;
+    }
+
+}

@@ -1,0 +1,34 @@
+.text {
+    color: #fff;
+    justify-content: space-around;
+    padding: 0 10px 0 0;
+    width: 50%;
+}
+
+.big-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* tablet and ipad */
+@media screen and (max-width: 768px) {
+
+    .text {
+        padding: 0;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 480px) {
+
+    .text {
+        width: 90%;
+    }
+
+    .big-heading {
+        font-size: 1.8rem;
+    }
+}
